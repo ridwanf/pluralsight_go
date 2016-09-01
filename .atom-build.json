@@ -1,0 +1,8 @@
+{
+  "cmd": "$GOROOT/bin/go run {FILE_ACTIVE}",
+  "shell": true,
+  "env": {
+    "GOROOT": "C:/go",
+    "GOPATH": "E:/~PROJECT/GoWorkspace"
+  }
+}
