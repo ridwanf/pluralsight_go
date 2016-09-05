@@ -21,8 +21,10 @@ func CrateMessage(name, greeting string) string  {
     return greeting+" "+name
 }
 
-func CreateMessageMultiReturn(name, greeting string) (string,string)  {
-    return greeting+" "+name, "HEY!"+ name
+func CreateMessageMultiReturn(name, greeting string) (message string,alternate string)  {
+    message =  greeting+" "+name
+    alternate =  "HEY!"+ name
+    return
 }
 
 func main()  {
