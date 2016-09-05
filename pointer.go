@@ -6,6 +6,6 @@ func main()  {
     message :="Hello go world!"
 
     var greeting *string = &message
-    *greeting+="lalal"
+    *greeting="hi"
     fmt.Println(message,*greeting)
 }
